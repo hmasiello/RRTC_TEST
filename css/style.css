@@ -39,7 +39,7 @@ colors:
 */
 
 html {
-	color: #245E87;
+	color: #444545;
 	font-family: 'Helvetica', sans-serif;
 	font-weight: 200;
 	font-size: 1em;
@@ -54,17 +54,17 @@ header {
 }
 
 a {
-	color: #245E87;
+	color: #025380;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #92afc3;
+	color: #1B75BC;
 }
 
 nav {
 	font-size: 1.5em;
-	padding: 160px 20px 40px 20px;
+	padding: 160px 0px 40px 20px;
 	font-family: 'Fjalla One', sans-serif;
 }
 
@@ -108,7 +108,7 @@ nav ul ul li {
 @media (min-width: 768px) {
 
 	nav {
-		text-align: center;
+		text-align: right;
 	}
 	nav ul ul {
 		display: none;
@@ -116,8 +116,7 @@ nav ul ul li {
 
 	nav ul li {
 		display: inline;
-		padding-left: 15px;
-		padding-right: 15px;
+		padding-left: 30px;
 	}
 
 	nav ul ul {
@@ -151,7 +150,7 @@ img {
 }
 
 h1 {
-	color: #6d8392;
+	color: #444545;
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 2.5em;
 	padding: 5px 0px 15px 0px;
@@ -216,7 +215,8 @@ ul li {
 
 hr {
 	border: 0;
-	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-top: 1px solid;
+	color: #94A7BD; 
 }
 
 footer {
@@ -237,6 +237,18 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+.contact a.hover {
+	color: white;	
+	background: #AD0737;
+}
+
+.contact {
+	background-color: #C7315C;
+	color: white;
+	padding: 10px;
+}
+
 .toggle {
 	cursor: pointer;
 }
@@ -304,7 +316,7 @@ footer {
 
 .homepage {
 	text-align: center;
-	padding-top: 60px;
+	padding: 20px 0px;
 }
 
 .homepageheaderlink {
@@ -358,13 +370,27 @@ footer {
 	display: none;
 }
 
+.icons {
+	height: 210px;
+	width: 200px;
+	margin: 20px 10px;
+	text-align: center;
+	color: #AD0737;
+	fill: #AD0737;;
+}
+
+.iconimage {
+	margin: 20px;
+}
+
 .news {
 	border: 1px black solid;
 	background: gray;
 	height: 200px;
 	width: 200px;
-	margin: 60px 10px;
+	margin: 20px 10px;
 	opacity: .5; 
+	text-align: center;
 }
 
 .overlay {
@@ -394,6 +420,11 @@ footer {
 @media (min-width: 768px) {
 
 	.news {
+		width: 31%;
+		float: left; 
+	}
+
+	.icons {
 		width: 31%;
 		float: left; 
 	}
