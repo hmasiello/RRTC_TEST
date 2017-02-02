@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+   		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="description" content="RRTC Website">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>VR Practices for Youth and Young Adults</title>
@@ -12,7 +12,6 @@
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/nav.css">
 	</head>
 
 	<body>
@@ -20,7 +19,7 @@
 		
 		<header class="clearfix">
 			<div class="logo">
-				<a href="index.html"><img src="images/rrtc.svg" width="275" alt="VR Practices for Youth and Young Adults logo"></a>
+				<a href="index.html"><img src="images/rrtc.svg" width="200" alt="VR Practices for Youth and Young Adults logo"></a>
 			</div>
 			<nav>
 				<ul>
@@ -53,10 +52,10 @@
 					</li>
 					<li><a href="aboutus.html">ABOUT US</a>
 						<ul>
-							<li><a href="employmentoutcomesstudies.html">Abstract</a></li>
-							<li><a href="employmentoutcomespublications.html">Project Staff</a></li>
-							<li><a href="employmentoutcomesresources.html">News</a></li>
-							<li><a href="employmentoutcomesresources.html">Past Newsletters</a></li>
+							<li class="aboutus"><a href="employmentoutcomesstudies.html">Abstract</a></li>
+							<li class="aboutus"><a href="employmentoutcomespublications.html">Project Staff</a></li>
+							<li class="aboutus"><a href="employmentoutcomesresources.html">News</a></li>
+							<li class="aboutus"><a href="employmentoutcomesresources.html">Past Newsletters</a></li>
 						</ul>
 					</li>
 					<li><a href="aboutus.html" class="contact">CONTACT US</a>
@@ -66,12 +65,12 @@
 		</header>
 
 		<section>
-			<div class="mainphoto1">
+			<div class="heroimage1">
 			</div>
 
 			<div>
-				<h2 class="homepage">Rehabilitation Research and Training Center on VR Practices and Youth</h2>
-					<p>Addressing gaps in knowledge and practice to improve VR practices and employment outcomes for youth and young adults with disabilties.</p>
+				<h2 class="homepagetitle">Rehabilitation Research and Training Center on VR Practices and Youth</h2>
+					<p class="homepagetext" >Addressing gaps in knowledge and practice to improve VR practices and employment outcomes for youth and young adults with disabilties.</p>
 			</div>
 		</section>
 
@@ -81,7 +80,7 @@
 			<aside>
 				<div class="icons">
 					<h2>OUR WORK</h2>
-					<img src="images/OurWork.svg" width="59" alt="work icon" class="iconimage">
+					<img src="images/OurWork.svg" width="54" alt="work icon" class="iconimage">
 					<p>Learn about our RRTC</p>
 				</div>
 			</aside>
@@ -119,15 +118,24 @@
 		</section>
 
 		<hr>
+		
 		<footer>
 
-			<section>
-			</section>
+			<div class="clearfix contactusbox">
+				<aside class="contactleft">
+					<h1 class="contactustext">CONTACT US</h1>
+				</aside>
+				<aside class="contactright">
+					<p class="contactustext">Our goals is to be a responsive resource for you. Have a question about the RRTC or the practices we promote? Please submit your question and we will work hard to connect you to the right resource.</p>
+				</aside>
+			</div>
+
 
 			<section>
 				<form>
-					<p>Email Address:</p><input type="text" name="email" size="60">
-					<input type="submit" value="Submit">
+					<h2>SIGN UP FOR OUR MAILING LIST</h2>
+					<h3><input type="text" name="email" size="40" value="Email Address" class="signupform">
+					<input type="submit" value="Sign Up" class="signupbutton"></h3>
 				</form>
 			</section>
 
@@ -149,7 +157,7 @@
 				</div>
 			</section>
 
-			<div class="sitemap"><a href="index.html">Home</a> | 	<a href="#">Employment Outcomes</a> | 
+			<div class="sitemap"><a href="index.html">Home</a> | <a href="#">Employment Outcomes</a> | 
 				<a href="#">VR Practices</a> | 
 				<a href="#">Post-Secondary</a> | 
 				<a href="#">About Us</a> | 
