@@ -34,8 +34,16 @@ Author: Hyun Masiello
 /* BASE STYLES
 /*******************************************/
 /*
-colors:
-
+COLORS:
+	Text Colors: 
+		Navy Blue - #025380
+		Hover Blue - #1B75BC
+		Dark Red - #AD0737
+		Hover Red - C7315C
+	Horizontal Line: 
+		Teal - #94A7BD
+	Text 
+		Dark Grey - #444545
 */
 
 html {
@@ -68,18 +76,6 @@ nav {
 	font-family: 'Fjalla One', sans-serif;
 }
 
-/* Makes the navigation visible for mobile */
-nav [aria-hidden="true"] {
-	display: block;
-}
-
-/* Now do the usual desktop pattern */
-@media (min-width: 768px) {
-	[role="menu"][aria-hidden="true"] {
-		display: none;
-	}
-}
-
 nav ul {
 	list-style-type: none;
 	display: inline-block;
@@ -103,6 +99,18 @@ nav ul ul li {
 	background: white;
 	display: block;
 	padding: 15px 10px;
+}
+
+/* Makes the navigation visible for mobile */
+nav [aria-hidden="true"] {
+	display: block;
+}
+
+/* Now do the usual desktop pattern */
+@media (min-width: 768px) {
+	[role="menu"][aria-hidden="true"] {
+		display: none;
+	}
 }
 
 @media (min-width: 768px) {
@@ -144,6 +152,10 @@ nav ul ul li {
 		display: block;
 	}
 }
+
+
+
+
 
 img {
 	max-width: 100%;
@@ -237,6 +249,18 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+.advisory {
+	padding-left: 20px;
+}
+
+.backgroundimage {
+	background-image: url('BackgroundDesign.png');
+}
+
+/* hides the read less */
+.collapse {
+	display: none;
+}
 
 .contact a.hover {
 	color: white;	
@@ -244,17 +268,9 @@ footer {
 }
 
 .contact {
-	background-color: #C7315C;
+	background-color: #AD0737;
 	color: white;
 	padding: 10px;
-}
-
-.toggle {
-	cursor: pointer;
-}
-
-.advisory {
-	padding-left: 20px;
 }
 
 .funding {
@@ -263,40 +279,34 @@ footer {
 	margin: 20px 10px;
 }
 
+.hideCollaboration1 {
+	display: none;
+}
+
+.homepage {
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.homepageheaderlink {
+	color: white;
+}
+
+.icons {
+	height: 210px;
+	width: 200px;
+	margin: 20px 10px;
+	text-align: center;
+	color: #AD0737;
+	fill: #AD0737;;
+}
+
+.iconimage {
+	margin: 20px;
+}
+
 .logo {
 	padding-top: 10px;
-}
-
-/* Partner logos in footer */
-
-.meet {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	padding: 0px 20px;
-}
-
-.meet_img {
-	text-align: center;
-	margin: 15px 0px;
-	max-width: 250px;
-}
-
-@media (min-width: 768px) {
-	.meet_img {
-		max-width: 160px;
-	}
-	.square {
-		max-width: 110px;
-	}
-}
-
-.meet:nth-of-type(1) .meet_img {
-	margin-left: 0
-}
-
-.meet:nth-of-type(3) .meet_img {
-	margin-right: 0
 }
 
 .mainphoto1 {
@@ -314,73 +324,35 @@ footer {
 	background-position: center center;
 }
 
-.homepage {
+/* Partner logos in footer */
+
+.meet {
+	display: flex;
+	justify-content: center;
+	padding: 0px 20px;
+}
+
+.meet_img {
 	text-align: center;
-	padding: 20px 0px;
+	margin: 15px 0px;
+	max-width: 250px;
 }
 
-.homepageheaderlink {
-	color: white;
+	@media (min-width: 768px) {
+		.meet_img {
+			max-width: 160px;
+		}
+		.square {
+			max-width: 110px;
+		}
+	}
+
+.meet:nth-of-type(1) .meet_img {
+	margin-left: 0
 }
 
-.sitemap {
-	font-size: 1em;
-	line-height: 1;
-	padding: 40px 0px 20px 0px;
-}
-
-.readless {
-	color:#47A5DC;
-	text-decoration: none;
-}
-
-.homepageheader a:hover{
-	color: #08263A;
-}
-
-.homepageheader {
-	color: white;
-	font-family: 'Fjalla One', Arial, sans-serif;
-	font-size: 2.5em;
-	line-height: 1.25;
-}
-
-.studyname {
-	font-family: 'Helvetica', san-serif;
-	font-size: .6em;
-	padding: 1px 50px;
-	width: 400px;
-}
-
-/* hides the read less */
-.collapse {
-	display: none;
-}
-
-/* hides the paragraph of text that will slide down */
-[aria-hidden="true"] {
-	display: none;
-}
-
-.backgroundimage {
-	background-image: url('BackgroundDesign.png');
-}
-
-.hideCollaboration1 {
-	display: none;
-}
-
-.icons {
-	height: 210px;
-	width: 200px;
-	margin: 20px 10px;
-	text-align: center;
-	color: #AD0737;
-	fill: #AD0737;;
-}
-
-.iconimage {
-	margin: 20px;
+.meet:nth-of-type(3) .meet_img {
+	margin-right: 0
 }
 
 .news {
@@ -393,23 +365,33 @@ footer {
 	text-align: center;
 }
 
-.overlay {
-	height: 192px;
-	width: 21%;
-	background: white;
-	margin: -35px -35px 0px 800px;
-	opacity: .5; 
-	float: right;
+.readless {
+	color:#47A5DC;
+	text-decoration: none;
 }
 
-.overlay1 {
-	height: 192px;
-	width: 21%;
-	background: #245E87;
-	margin: 0px -35px 0px 800px;
-	opacity: .5; 
-	float: right;
+.sitemap {
+	font-size: 1em;
+	line-height: 1;
+	padding: 40px 0px 20px 0px;
 }
+
+.studyname {
+	font-family: 'Helvetica', san-serif;
+	font-size: .6em;
+	padding: 1px 50px;
+	width: 400px;
+}
+
+/* hides the paragraph of text that will slide down */
+[aria-hidden="true"] {
+	display: none;
+}
+
+.toggle {
+	cursor: pointer;
+}
+
 
 
 /******************************************
@@ -461,5 +443,4 @@ footer {
 	.homepageheader {
 		font-size: 4.5em;
 }
-
-} /*closing the media*/
+/*closing the media*/
