@@ -253,45 +253,21 @@ ul li {
 }
 
 /******************************************
-/* ADDITIONAL STYLES
+/* CONTACT US BOX IN FOOTER
 /*******************************************/
-
-/*about us section width modifcation*/
-	.aboutus {
-		width: 190px;
+	button {
+		background-color: white;
+		display: flex;
+		justify-content: flex-start;
+		margin: 30px 0px;
+		padding: 5px;
 	}
 
-/*p body indentation*/
-	.advisory {
-		padding-left: 20px;
+	button h2 {
+		padding: 3px;
+		color: #AD0737;
 	}
 
-/* hides the paragraph of text that will slide down */
-	[aria-hidden="true"] {
-		display: none;
-	}
-
-/*hides the read less */
-	.collapse {
-		display: none;
-	}
-
-/*contact us nav button*/
-	.contact {
-		background-color: #AD0737;
-		color: white;
-		padding: 10px;
-	}
-
-	.contact:hover {
-		background-color: #C7315C;
-	}
-
-	a.contact:hover {
-		color: white;
-	}
-
-/*contact us box in footer*/
 	.contactusbox {
 		background-color: #025380;
 	}
@@ -305,7 +281,6 @@ ul li {
 		line-height: 1.5;
 		display: block;
 		margin-bottom: 40px;
-
 	}
 
 	.contactnature {
@@ -316,17 +291,38 @@ ul li {
 	}
 
 	select {
-		-webkit-appearance: none;
-		-moz-appearance:none;
 		padding: 5px;
 		border: .5px grey solid;
 		color: #58595B;
 		font-size: 1.25em;
 		line-height: 1.5;
-		display: block;
 		border-radius: 0px;
 		width: 270px;
 		margin-bottom: 40px;
+		background-color: white; 
+		display: inline-block;
+		position: relative;
+	}
+
+	.select svg {
+		width: .65em;
+		height: .65em;
+		position: absolute;
+		top: 15px;
+		right: 5px;
+		z-index: 1;
+	}
+
+	.select select {
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		border: none;
+		border-radius: 0;
+		padding: 3px 5px;
+		background-color: transparent;
+		display: block;
+		position: relative;
+		z-index: 2;
 	}
 
 	textarea {
@@ -358,6 +354,45 @@ ul li {
 		line-height: 1.30;
 	}
 
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/*about us section width modifcation*/
+	.aboutus {
+		width: 190px;
+	}
+
+/*p body indentation*/
+	.advisory {
+		padding-left: 20px;
+	}
+
+/* hides the paragraph of text that will slide down */
+	[aria-hidden="true"] {
+		display: none;
+	}
+
+/*hides the read less */
+	.collapse {
+		display: none;
+	}
+
+/*contact us nav button*/
+	.contact {
+		background-color: #AD0737;
+		color: white;
+		padding: 10px;
+		transition: background-color .5s;
+	}
+
+	.contact:hover {
+		background-color: #C7315C;
+		color: white;
+	}
+
+
+
 /*funding statement in footer*/
 	.funding {
 		text-align: center;
@@ -378,7 +413,7 @@ ul li {
 	.homepagetext {
 		text-align: center;
 		padding: 5px 0px 30px 0px;
-		font-size: .9em;
+		font-size: 1.25em;
 	}
 
 /*homepage icon section*/
@@ -492,6 +527,8 @@ ul li {
 .toggle {
 	cursor: pointer;
 }
+
+
 
 /******************************************
 /* RESPONSIVE

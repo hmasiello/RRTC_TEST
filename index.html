@@ -133,16 +133,25 @@
 						<input type="text" name="text" size="25" value="Name" class="contactform">
 						<input type="text" name="email" size="25" value="Email Address" class="contactform">
 						<h3 class="contactnature">Nature of Question:</h3>
-						<select name="Select" >
-							<option value="Employment Outcomes">Employment Outcomes</option>
-							<option value="VR Practices">VR Practices</option>
-							<option value="Post-Secondary">Post-Secondary</option>
-							<option value="Other">Other</option>
-							<option value="Accessibility">Accessibility</option>
-						</select>	
+						<span class="select">
+							<select>
+								<option value="Employment Outcomes">Employment Outcomes</option>
+								<option value="VR Practices">VR Practices</option>
+								<option value="Post-Secondary">Post-Secondary</option>
+								<option value="Other">Other</option>
+								<option value="Accessibility">Accessibility</option>
+							</select>	
+							<svg>
+								<use xlink:href="#down-arrow"></use>
+							</svg>
+						</span>
+						<div style="display: none">
+							<svg enable-background="new 0 0 50 50" id="down-arrow" version="1.1" viewBox="0 0 50 50" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><polygon points="47.25,15 45.164,12.914 25,33.078 4.836,12.914 2.75,15 25,37.25 "/></svg>
+						</div>
 					</div>
 					<div class="contactright">
 						<textarea>Your question/message </textarea>
+						<button type="button"><h2>Let's Talk!</h2></button>
 					</div>
 				</div>
 			</div>
