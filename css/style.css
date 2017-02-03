@@ -294,13 +294,58 @@ ul li {
 /*contact us box in footer*/
 	.contactusbox {
 		background-color: #025380;
-		height: 400px;
+	}
+
+	.contactform {
+		padding: 5px;
+		border: .5px grey solid;
+		font: Helvetica, sans-serif;
+		color: #58595B;
+		font-size: 1.25em;
+		line-height: 1.5;
+		display: block;
+		margin-bottom: 40px;
+
+	}
+
+	.contactnature {
+		color: white;
+		text-align: left;
+		padding: 0px;
+		font-weight: 200;
+	}
+
+	select {
+		-webkit-appearance: none;
+		-moz-appearance:none;
+		padding: 5px;
+		border: .5px grey solid;
+		color: #58595B;
+		font-size: 1.25em;
+		line-height: 1.5;
+		display: block;
+		border-radius: 0px;
+		width: 270px;
+		margin-bottom: 40px;
+	}
+
+	textarea {
+		padding: 5px;
+		border: .5px grey solid;
+		color: #58595B;
+		font-size: 1.25em;
+		line-height: 1.5;
+		display: block;
+		border-radius: 0px;
+		width: 100%;
+		text-align: left;
+		min-height: 150px;
 	}
 
 	.contactustext {
 		color: white;
 		text-align: left;
-		padding: 40px 40px 0px 40px;
+		padding: 40px 0px;
 	}
 
 	h1.contactustext{
@@ -311,7 +356,6 @@ ul li {
 	p.contactustext{
 		font-size: .9em;
 		line-height: 1.30;
-		padding-left: 0px;
 	}
 
 /*funding statement in footer*/
@@ -378,13 +422,14 @@ ul li {
 	.meet {
 		display: flex;
 		justify-content: center;
-		padding: 0px 20px;
+		padding: 40px 20px;
 	}
 
 	.meet_img {
 		text-align: center;
 		margin: 15px 0px;
 		max-width: 250px;
+		max-width: 160px;
 	}
 
 	.meet:nth-of-type(1) .meet_img {
@@ -395,23 +440,18 @@ ul li {
 		margin-right: 0
 	}
 
-		@media (min-width: 768px) {
-			.meet_img {
-				max-width: 160px;
+	.meetsquare {
+		max-width: 110px;
 			}
-			.square {
-				max-width: 110px;
-			}
-		}
 
 /*homepage news section*/ 
-.news {
-	border: .5px grey solid;
-	height: 200px;
-	width: 200px;
-	margin: 20px 10px;
-	text-align: center;
-}
+	.news {
+		border: .5px grey solid;
+		height: 200px;
+		width: 200px;
+		margin: 40px 10px;
+		text-align: center;
+	}
 
 .readless {
 	color:#47A5DC;
@@ -436,18 +476,18 @@ ul li {
 	}
 
 /*sitemap in footer*/
-.sitemap {
-	font-size: 1em;
-	line-height: 1;
-	padding: 40px 0px 20px 0px;
-}
+	.sitemap {
+		font-size: 1em;
+		line-height: 1;
+		padding: 40px 0px;
+	}
 
-.studyname {
-	font-family: 'Helvetica', sans-serif;
-	font-size: .6em;
-	padding: 1px 50px;
-	width: 400px;
-}
+	.studyname {
+		font-family: 'Helvetica', sans-serif;
+		font-size: .6em;
+		padding: 1px 50px;
+		width: 400px;
+	}
 
 .toggle {
 	cursor: pointer;
@@ -463,11 +503,13 @@ ul li {
 	.contactleft {
 		width: 35%;
 		float: left;
+		padding-left: 40px;
 	}
 
 	.contactright {
 		width: 65%;
 		float: left;
+		padding: 0px 40px;
 	}
 
 	.homepageheader {
@@ -483,9 +525,10 @@ ul li {
 		float: left;
 	}
 
-	.meet {
-		float: left;
-		width: 20%;
+	.footerlogos {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.meet_img {
