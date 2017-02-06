@@ -499,20 +499,22 @@ ul li {
 
 /*sign up form*/
 	.signup {
-		display: inline;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 	.signupbutton {
 		background: #AD0737;
-		padding: 12px 12px;
-		margin-left: -6px;
+		padding: 9px 10px 10px;
+		margin-left: -1px;
 		color: white;
 		border: none;
 	}
 
 	.signupform {
 		padding: 3px 10px;
-		border: .5px grey solid;
-		font-style: : Helvetica, sans-serif;
+		border: .1px grey solid;
+		font-family: Helvetica, sans-serif;
 		color: #58595B;
 		font-size: 1em;
 		line-height: 1.5;
