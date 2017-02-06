@@ -498,10 +498,13 @@ ul li {
 }
 
 /*sign up form*/
+	.signup {
+		display: inline;
+	}
 	.signupbutton {
 		background: #AD0737;
-		padding: 5px 10px;
-		margin-left: -4px;
+		padding: 12px 12px;
+		margin-left: -6px;
 		color: white;
 		border: none;
 	}
@@ -509,7 +512,7 @@ ul li {
 	.signupform {
 		padding: 3px 10px;
 		border: .5px grey solid;
-		font: Helvetica, sans-serif;
+		font-style: : Helvetica, sans-serif;
 		color: #58595B;
 		font-size: 1em;
 		line-height: 1.5;
