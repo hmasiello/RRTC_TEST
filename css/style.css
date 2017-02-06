@@ -1,5 +1,5 @@
 /*
-Project Name: VR Practices for Youth and Young Adults 
+Project Name: VR Practices for Youth and Young Adults
 Client: RRTC
 Author: Hyun Masiello
 */
@@ -35,14 +35,14 @@ Author: Hyun Masiello
 /*******************************************/
 /*
 COLORS:
-	Text Colors: 
+	Text Colors:
 		Navy Blue - #025380
 		Hover Blue - #1B75BC
 		Dark Red - #AD0737
 		Hover Red - #C7315C
-	Horizontal Line: 
+	Horizontal Line:
 		Teal - #94A7BD
-	Text 
+	Text
 		Dark Grey - #444545
 */
 
@@ -73,7 +73,7 @@ img {
 hr {
 	border: 0;
 	border-top: 1px solid;
-	color: #94A7BD; 
+	color: #94A7BD;
 }
 
 
@@ -103,7 +103,7 @@ nav ul li {
 
 nav ul ul {
 	margin-left: 15px;
-	box-shadow: 0 6px 12px 
+	box-shadow: 0 6px 12px
 	rgba(0, 0, 0, 0.175);
 }
 
@@ -284,6 +284,7 @@ ul li {
 		line-height: 1.5;
 		display: block;
 		margin-bottom: 40px;
+		width: 100%;
 	}
 
 	.contactnature {
@@ -298,8 +299,9 @@ ul li {
 		border: .5px grey solid;
 		border-radius: 0px;
 		margin-bottom: 40px;
-		background-color: white; 
-		display: inline-block;
+		background-color: white;
+		display: block;
+		width: 100%;
 		position: relative;
 	}
 
@@ -324,7 +326,7 @@ ul li {
 		z-index: 2;
 		font-size: 1.25em;
 		line-height: 1.15;
-		width: 278px;
+		width: 100%;
 		color: #58595B;
 	}
 
@@ -432,7 +434,7 @@ ul li {
 		fill: #AD0737;
 	}
 
-/*RRTC logo*/ 
+/*RRTC logo*/
 	.logo {
 		padding-top: 10px;
 	}
@@ -481,7 +483,7 @@ ul li {
 		max-width: 110px;
 			}
 
-/*homepage news section*/ 
+/*homepage news section*/
 	.news {
 		border: .5px grey solid;
 		height: 200px;
@@ -559,7 +561,7 @@ ul li {
 
 	.icons {
 		width: 31%;
-		float: left; 
+		float: left;
 	}
 
 	.logo {
@@ -579,7 +581,7 @@ ul li {
 
 	.news {
 		width: 31%;
-		float: left; 
+		float: left;
 	}
 
 	.partners{
