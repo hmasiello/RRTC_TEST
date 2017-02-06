@@ -468,6 +468,11 @@ ul li {
 		fill: #AD0737;
 	}
 
+  .icongears {
+    height: 65px;
+    width: 65px;
+  }
+
 /*RRTC logo*/
 	.logo {
 		padding-top: 10px;
