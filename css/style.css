@@ -76,7 +76,10 @@ hr {
 	color: #94A7BD;
 }
 
-
+form {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
 
 /******************************************
 /* NAVIGATION
@@ -179,7 +182,7 @@ h2 {
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 1.75em;
 	line-height: 1.5;
-	padding: 20px 0px 5px 0px;
+	padding: 20px 0px 15px 0px;
 	text-transform: uppercase;
 }
 
@@ -271,6 +274,10 @@ ul li {
 		color: #AD0737;
 	}
 
+	button h2:hover {
+		color: #C7315C;
+	}
+
 	.contactusbox {
 		background-color: #025380;
 	}
@@ -280,7 +287,7 @@ ul li {
 		border: .5px grey solid;
 		font-family: Helvetica, sans-serif;
 		color: #58595B;
-		font-size: 1.25em;
+		font-size: 1em;
 		line-height: 1.5;
 		display: block;
 		margin-bottom: 40px;
@@ -324,7 +331,7 @@ ul li {
 		display: block;
 		position: relative;
 		z-index: 2;
-		font-size: 1.25em;
+		font-size: 1em;
 		line-height: 1.15;
 		width: 100%;
 		color: #58595B;
@@ -334,7 +341,7 @@ ul li {
 		padding: 5px;
 		border: .5px grey solid;
 		color: #58595B;
-		font-size: 1.25em;
+		font-size: 1em;
 		line-height: 1.5;
 		display: block;
 		border-radius: 0px;
@@ -358,6 +365,33 @@ ul li {
 	p.contactustext{
 		font-size: .9em;
 		line-height: 1.30;
+	}
+
+/******************************************
+/* SIGN UP FOR OUR EMAIL LIST
+/*******************************************/
+.signup {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.signupbutton {
+	background: #AD0737;
+	padding: 10px 10px 11px;
+	margin-left: -1px;
+	color: white;
+	border: none;
+	font-size: 1em;
+}
+
+.signupform {
+	padding: 6px 10px;
+	border: .1px grey solid;
+	font-family: Helvetica, sans-serif;
+	color: #58595B;
+	font-size: 1em;
+	line-height: 1.5;
 	}
 
 /******************************************
@@ -497,28 +531,7 @@ ul li {
 	text-decoration: none;
 }
 
-/*sign up form*/
-	.signup {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-	.signupbutton {
-		background: #AD0737;
-		padding: 9px 10px 10px;
-		margin-left: -1px;
-		color: white;
-		border: none;
-	}
 
-	.signupform {
-		padding: 3px 10px;
-		border: .1px grey solid;
-		font-family: Helvetica, sans-serif;
-		color: #58595B;
-		font-size: 1em;
-		line-height: 1.5;
-	}
 
 /*sitemap in footer*/
 	.sitemap {
@@ -548,13 +561,13 @@ ul li {
 	.contactleft {
 		width: 35%;
 		float: left;
-		padding-left: 40px;
+		padding-left: 50px;
 	}
 
 	.contactright {
 		width: 65%;
 		float: left;
-		padding: 0px 40px;
+		padding: 0px 50px;
 		display: flex;
 		flex-direction: column;
 		align-items: flex-end;
