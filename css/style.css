@@ -464,14 +464,17 @@ ul li {
 	}
 
 	.iconimage {
-		margin: 20px;
 		fill: #AD0737;
+		margin-bottom: 10px;
+		height: 65px;
+	    width: 65px;
 	}
 
-  .icongears {
-    height: 65px;
-    width: 65px;
-  }
+	.icons:hover {
+		fill: #C7315C;
+	}
+
+
 
 /*RRTC logo*/
 	.logo {
