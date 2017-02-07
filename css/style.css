@@ -299,6 +299,8 @@ ul li {
 		text-align: left;
 		font-weight: 200;
 		padding: 0px;
+		padding-bottom: 5px;
+		font-size: 1em;
 	}
 
 	.select {
@@ -316,7 +318,7 @@ ul li {
 		width: .65em;
 		height: .65em;
 		position: absolute;
-		top: 15px;
+		top: 13px;
 		right: 5px;
 		z-index: 1;
 	}
@@ -365,6 +367,7 @@ ul li {
 	p.contactustext{
 		font-size: .9em;
 		line-height: 1.30;
+		padding-left: 4px;
 	}
 
 /******************************************
@@ -446,6 +449,7 @@ ul li {
 	.homepagetitle {
 		text-align: center;
 		padding-top: 20px;
+		font-size: 1.95em;
 	}
 
 	.homepagetext {
@@ -470,7 +474,7 @@ ul li {
 	    width: 65px;
 	}
 
-	.icons:hover {
+	.iconimage:hover {
 		fill: #C7315C;
 	}
 
