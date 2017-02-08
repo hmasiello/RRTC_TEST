@@ -182,7 +182,7 @@ h2 {
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 1.75em;
 	line-height: 1.5;
-	padding: 20px 0px 15px 0px;
+	padding: 20px 0px 5px 0px;
 	text-transform: uppercase;
 }
 
@@ -198,7 +198,7 @@ p {
 	color: #58595B;
 	font-size: 1em;
 	line-height: 1.5;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 
 strong {
@@ -441,10 +441,6 @@ ul li {
 		margin: 20px 10px;
 	}
 
-.hideCollaboration1 {
-	display: none;
-}
-
 /*homepage header text*/
 	.homepagetitle {
 		text-align: center;
@@ -460,25 +456,32 @@ ul li {
 
 /*homepage icon section*/
 	.icons {
-		height: 210px;
-		width: 200px;
-		margin: 20px 10px;
+		box-sizing: border-box;
+		float: left;
+		width: 33.3333%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
 		text-align: center;
-		color: #AD0737;
 	}
 
 	.iconimage {
-		fill: #AD0737;
+		fill: currentColor;
 		margin-bottom: 10px;
 		height: 65px;
 	    width: 65px;
 	}
 
-	.iconimage:hover {
-		fill: #C7315C;
+	.iconlink:hover {
+		color: #C7315C;
 	}
 
-
+	.iconlink {
+		color: #AD0737;
+		display: block;
+		text-decoration: none;
+	}
 
 /*RRTC logo*/
 	.logo {
@@ -531,19 +534,15 @@ ul li {
 
 /*homepage news section*/
 	.news {
-		border: .5px grey solid;
-		height: 200px;
-		width: 200px;
-		margin: 40px 10px;
+		box-sizing: border-box;
+		float: left;
+		width: 33.3333%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
 		text-align: center;
 	}
-
-.readless {
-	color:#47A5DC;
-	text-decoration: none;
-}
-
-
 
 /*sitemap in footer*/
 	.sitemap {
@@ -561,6 +560,13 @@ ul li {
 
 .toggle {
 	cursor: pointer;
+}
+.hideCollaboration1 {
+	display: none;
+}
+.readless {
+	color:#47A5DC;
+	text-decoration: none;
 }
 
 /******************************************
@@ -590,7 +596,6 @@ ul li {
 	}
 
 	.icons {
-		width: 31%;
 		float: left;
 	}
 
@@ -610,7 +615,6 @@ ul li {
 	}
 
 	.news {
-		width: 31%;
 		float: left;
 	}
 
