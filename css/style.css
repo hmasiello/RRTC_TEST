@@ -359,13 +359,13 @@ ul li {
 	}
 
 	h1.contactustext{
-		font-size: 3.5em;
+		font-size: 4.1em;
 		padding-right: 0px;
 		line-height: 1em;
 	}
 
 	p.contactustext{
-		font-size: .9em;
+		font-size: 1.07em;
 		line-height: 1.30;
 		padding-left: 4px;
 	}
@@ -409,6 +409,7 @@ ul li {
 /*p body indentation*/
 	.advisory {
 		padding-left: 20px;
+		padd
 	}
 
 /* hides the paragraph of text that will slide down */
@@ -539,9 +540,13 @@ ul li {
 		width: 33.3333%;
 		margin-top: 10px;
 		margin-bottom: 10px;
-		padding-left: 20px;
-		padding-right: 20px;
+		padding: 30px 20px 0px 20px;
 		text-align: center;
+	}
+
+	.news img {
+		max-width: 80%
+
 	}
 
 /*sitemap in footer*/
@@ -561,9 +566,11 @@ ul li {
 .toggle {
 	cursor: pointer;
 }
+
 .hideCollaboration1 {
 	display: none;
 }
+
 .readless {
 	color:#47A5DC;
 	text-decoration: none;
@@ -591,6 +598,12 @@ ul li {
 		align-items: flex-end;
 	}
 
+	.footerlogos {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
 	.homepageheader {
 		font-size: 4.5em;
 	}
@@ -601,12 +614,6 @@ ul li {
 
 	.logo {
 		float: left;
-	}
-
-	.footerlogos {
-		display: flex;
-		justify-content: center;
-		align-items: center;
 	}
 
 	.meet_img {
