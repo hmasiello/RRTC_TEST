@@ -230,7 +230,7 @@ ol li {
 	color: #58595B;
 	font-size: 1em;
 	line-height: 1.5;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 	margin-left: 40px;
 }
 
@@ -242,8 +242,12 @@ ul li {
 	color: #58595B;
 	font-size: 1em;
 	line-height: 1.5;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 	margin-left: 40px;
+}
+
+li.lastbullet {
+	padding-bottom: 20px;
 }
 
 /******************************************
@@ -409,7 +413,6 @@ ul li {
 /*p body indentation*/
 	.advisory {
 		padding-left: 20px;
-		padd
 	}
 
 /* hides the paragraph of text that will slide down */
