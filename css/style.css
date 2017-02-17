@@ -494,11 +494,10 @@ li.lastbullet {
 
 /*homepage hero image*/
 	.heroimage1 {
-		padding: 35px 35px 350px;
+		padding: 35px 0px;
 		margin: 18px 0px;
 		background-size: cover;
 		background-position: center center;
-		background-image: url('MainImage.jpg');
 	}
 
 /*other pages hero image*/
