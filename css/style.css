@@ -87,7 +87,7 @@ form {
 
 nav {
 	font-size: 1.5em;
-	padding: 160px 0px 40px 20px;
+	padding: 100px 0px 10px 20px;
 	font-family: 'Fjalla One', sans-serif;
 }
 
@@ -489,12 +489,12 @@ li.lastbullet {
 
 /*RRTC logo*/
 	.logo {
-		padding-top: 10px;
+		padding-top: 0px;
 	}
 
 /*homepage hero image padding*/
 	.heroimage1 {
-		padding: 35px 0px;
+		padding: 35px 0px 0px 0px;
 		margin: 18px 0px;
 	}
 
