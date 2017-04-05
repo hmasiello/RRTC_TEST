@@ -198,7 +198,7 @@ p {
 	color: #58595B;
 	font-size: 1em;
 	line-height: 1.5;
-	padding-bottom: 20px;
+	padding: 5px 0px 20px 0px;
 }
 
 strong {
@@ -413,6 +413,7 @@ li.lastbullet {
 /*p body indentation*/
 	.advisory {
 		padding-left: 20px;
+		padding-top: 5px;
 	}
 
 /* hides the paragraph of text that will slide down */
@@ -547,6 +548,11 @@ li.lastbullet {
 	.news img {
 		max-width: 80%
 
+	}
+
+/*publication type bottom padding*/
+	.publicationspacing {
+		padding: 10px 0px 5px 0px;
 	}
 
 /*sitemap in footer*/
