@@ -547,7 +547,6 @@ li.lastbullet {
 
 	.news img {
 		max-width: 80%
-
 	}
 
 /*publication type bottom padding*/
@@ -569,17 +568,18 @@ li.lastbullet {
 		width: 400px;
 	}
 
+/*collapsible feature read more & read less*/
 .toggle {
 	cursor: pointer;
-}
-
-.hideCollaboration1 {
-	display: none;
 }
 
 .readless {
 	color:#47A5DC;
 	text-decoration: none;
+}
+
+.hideCollaboration1 {
+	display: none;
 }
 
 /******************************************
